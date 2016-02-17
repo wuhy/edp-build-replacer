@@ -1,0 +1,30 @@
+{
+  "name": "edp-build-replacer",
+  "version": "0.1.0",
+  "description": "The edp build plugin for resource replace.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wuhy/edp-build-replacer.git"
+  },
+  "bugs": {
+    "url": "http://github.com/wuhy/edp-build-replacer/issues"
+  },
+  "keywords": [
+    "edp build",
+    "replace",
+    "url",
+    "edp"
+  ],
+  "author": "sparklewhy@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "asset-util": "^0.1.0",
+    "lodash": "^4.4.0",
+    "minimatch": "^3.0.0"
+  },
+  "devDependencies": {}
+}

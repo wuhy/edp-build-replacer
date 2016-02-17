@@ -1,6 +1,8 @@
 edp-build-replacer
 ========
 
+[![Dependency Status](https://david-dm.org/wuhy/edp-build-replacer.svg)](https://david-dm.org/wuhy/edp-build-replacer) [![devDependency Status](https://david-dm.org/wuhy/edp-build-replacer/dev-status.svg)](https://david-dm.org/wuhy/edp-build-replacer#info=devDependencies) [![NPM Version](https://img.shields.io/npm/v/edp-build-replacer.svg?style=flat)](https://npmjs.org/package/edp-build-replacer)  
+
 > Edp Build plugin for resource path replace or anthing others replace.
 
 edp-build-replacer 是 [edp-build](https://github.com/ecomfe/edp-build) 的一个插件，用于替换静态资源内容，比如样式引用的 url。
@@ -117,7 +119,7 @@ exports.getProcessors = function () {
         ```javascript
         {
             // path: false
-            replacer: function (found) {
+            replacer: function (found, file) {
                 var value = found.value;
                 return found.match;
             },
